@@ -1,6 +1,6 @@
-public class LuxoryCarFactory implements CarFactory{
+public class LuxuryCarFactory implements CarFactory{
     @Override
     public Car createCar() {
-        return new LuxoryCar();
+        return new LuxuryCar();
     }
 }
